@@ -1,0 +1,40 @@
+variable "project_id" {
+  description = "The ID of your Google Cloud project"
+  type        = string
+  default     = "itsme-1234"
+}
+
+variable "credentials_path" {
+  description = "The path to your Google Cloud service account credentials JSON file"
+  default     = "key/itsme-1234-0143392bd35f.json"
+}
+
+variable "region" {
+  description = "The region for the BigQuery dataset"
+  type        = string
+  default     = "US"
+}
+
+variable "dataset_id" {
+  description = "The ID of the BigQuery dataset"
+  type        = string
+  default     = "num"
+}
+
+variable "dataset_description" {
+  description = "The description of the BigQuery dataset"
+  type        = string
+  default     = "An example BigQuery dataset"
+}
+
+variable "default_table_expiration_ms" {
+  description = "Default expiration time for tables in the dataset, in milliseconds"
+  type        = number
+  default     = null
+}
+
+variable "table_id" {
+  description = "The ID of the BigQuery table"
+  type        = string
+  default     = "jojo"
+}
