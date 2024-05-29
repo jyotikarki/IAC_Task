@@ -4,10 +4,7 @@ variable "project_id" {
   default     = "itsme-1234"
 }
 
-variable "credentials_path" {
-  description = "The path to your Google Cloud service account credentials JSON file"
-  default     = "key/itsme-1234-0143392bd35f.json"
-}
+
 
 variable "region" {
   description = "The region for the BigQuery dataset"
