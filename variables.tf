@@ -10,7 +10,6 @@ variable "location" {
   default     = "us-central1"
 }
 
-
 variable "project_id" {
   description = "The ID of your Google Cloud project"
   type        = string
