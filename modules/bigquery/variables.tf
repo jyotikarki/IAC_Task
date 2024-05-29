@@ -18,7 +18,7 @@ variable "region" {
 variable "dataset_id" {
   description = "The ID of the BigQuery dataset"
   type        = string
-  default     = "number"
+  default     = "idwed"
 }
 
 variable "dataset_description" {
@@ -36,5 +36,5 @@ variable "default_table_expiration_ms" {
 variable "table_id" {
   description = "The ID of the BigQuery table"
   type        = string
-  default     = "mytable"
+  default     = "mytablewed"
 }

@@ -13,13 +13,13 @@ variable "region" {
 variable "bucket_name" {
   description = "The name of the GCS bucket for Cloud Function deployment"
   type        = string
-  default = "bucketwed"
+  default = "bucketwwed"
 }
 
 variable "trigger_bucket_name" {
   description = "The name of the GCS bucket to trigger the Cloud Function"
   type        = string
-  default = "bucketwedtrigger"
+  default = "bucketwwedtrigger"
 }
 
 variable "credentials_path" {
