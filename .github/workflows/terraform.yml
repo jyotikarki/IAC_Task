@@ -25,7 +25,7 @@ jobs:
       id: auth
       uses: google-github-actions/auth@v1
       with:
-        workload_identity_provider: "projects/671902319686/locations/global/workloadIdentityPools/github-pool/providers/github-provider"
+        workload_identity_provider: "projects/671902319686/locations/global/workloadIdentityPools/githubaction-pool-jojo/providers/githubaction-jojoprovider"
         service_account: "terraformfinal@itsme-1234.iam.gserviceaccount.com"
 
     - name: Initialize Terraform
