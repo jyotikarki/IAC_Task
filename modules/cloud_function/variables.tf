@@ -13,17 +13,12 @@ variable "region" {
 variable "bucket_name" {
   description = "The name of the GCS bucket for Cloud Function deployment"
   type        = string
-  default = "bucketwedd"
+  default = "bucketthursday"
 }
 
 variable "trigger_bucket_name" {
   description = "The name of the GCS bucket to trigger the Cloud Function"
   type        = string
-  default = "bucketweddtrigger"
+  default = "buckethusrtrigger"
 }
 
-variable "ntials_path" {
-  description = "Path to the service account key JSON file"
-  type        = string
-  default = "key/itsme-1234-0143392bd35f.json"
-}

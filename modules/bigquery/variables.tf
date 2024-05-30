@@ -4,8 +4,6 @@ variable "project_id" {
   default     = "itsme-1234"
 }
 
-
-
 variable "region" {
   description = "The region for the BigQuery dataset"
   type        = string
@@ -15,7 +13,7 @@ variable "region" {
 variable "dataset_id" {
   description = "The ID of the BigQuery dataset"
   type        = string
-  default     = "idwed"
+  default     = "idfinal"
 }
 
 variable "dataset_description" {
@@ -33,5 +31,5 @@ variable "default_table_expiration_ms" {
 variable "table_id" {
   description = "The ID of the BigQuery table"
   type        = string
-  default     = "mytablewed"
+  default     = "mytablefinal"
 }
